@@ -23,7 +23,7 @@ BEGIN
     ELSE
       BEGIN
         WRITE('Hello Dear ');
-        FOR TNumber := 6 to LENGTH(Query)
+        FOR TNumber := 6 to LENGHT(Query)
         DO
           WRITE(Query[TNumber])
       END;
