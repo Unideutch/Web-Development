@@ -55,13 +55,17 @@ function onlyNumbers($text)
 function dubles($text)
 {
     $nd=0;
-    for($i=0; $i < strlen($text); $i++)
+    while($text!='')
     {
-        while(strpos($text, $text[$i]))
+        $char=$text[1];
+        while(strpos($text, $char))
         {
             $nd++;
         }
+        $text = str_replace($char, '', $text);
+        $nd = $nd - 1;
+        echo $nd;
     }
     return($nd);
 }
-echo (strlen($string)*4+ numberFact($string)*4 + (strlen($string) - numberUpper($string))*2 + (strlen($string) - numberLower($string))*2 - onlyLetters($string)- onlyNumbers($string) - dubles($string));
+echo dubles($string);
