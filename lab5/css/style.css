@@ -1,0 +1,65 @@
+.style-Head
+{
+  font-family: 'Montserrat';
+  font-size: 30.8354px;
+  line-height: 122.33%;
+  color:black;
+}
+p{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1.25;
+  color:black;
+}
+.style-Button{
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: 1;
+  color:white;
+  background-color: black;
+  padding: 15px 60px;
+  border-radius: 6px;
+}
+header, main{
+  margin: 0px 90px;
+}
+span{
+  color:#EE58B6;
+}
+.big-text{
+  font-family:'Montserrat';
+  font-size: 100px;
+  line-height: 122.35%;
+}
+.style-normal{
+  font-family: 'Roboto Condensed';
+  font-size: 26px;
+  width: 545px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 0.7);
+}
+a{
+  text-decoration: none;
+}
+footer{
+  background-color: black;
+}
+.podzolsky{
+  font-family: 'Roboto Condensed';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color:white;
+  width: 337px;
+  height: 52px;
+  margin:0 90px;
+}
+.big-image{
+  width: 762px;
+  height: 636.87px;
+}
+.small-image{
+  margin: 0px 218.5px;
+  width:60px;
+  height:60px;
+}
