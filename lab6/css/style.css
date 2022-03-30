@@ -3,17 +3,29 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-}
-.logo
-{
-    margin-right: 662px;
+    margin-top: 33px;
+    margin-left: 122px;
+    margin-right: 100px;
 }
 
-.header-strafe
+.logo
 {
-    margin-top: 30px;
-    margin-left: 120px;
-    margin-right: 120 px;
+    margin-right: 608px;
+    margin-top: -4px;
+}
+
+.none-padding
+{
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+.chillman
+{
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    margin-right: 190px;
 }
 
 .button
@@ -23,18 +35,12 @@
     line-height: 1;
     color: white;
     background-color: black;
-    padding: 18px 34px;
     border-radius: 6px;
-    width: 247px;
+    width: 250px;
     height: 55px;
-    left: 1433px;
-    top: 0px;
-    margin-right: 90px;
-}
-
-.strafe
-{
-    margin: 0px 90px;
+    margin-left: 10px;
+    border: 0;
+    margin-top: -2px;
 }
 
 .span
@@ -47,15 +53,17 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    margin-top: 127.42px;
-    margin-left: 178px;
-    margin-right: 205.43px;
+    margin-left: 175px;
+    margin-bottom: 67px;
 }
 
 .main-text
 {
     display: flex;
     flex-direction: column; 
+    justify-content: space-between;
+    width: auto;
+    margin-top: 40px
 }
 
 .title
@@ -63,6 +71,17 @@
     font-family: 'Montserrat';
     font-size: 100px;
     line-height: 122.35%;
+    margin-bottom: 0px;
+    margin-top: 180px;
+    padding: 0;
+}
+
+.button-main
+{
+    width: 335px;
+    margin-top: 0px;
+    margin-bottom: 180px;
+    margin-left: 2px;
 }
 
 .description
@@ -73,9 +92,11 @@
     line-height: 120%;
     color: rgba(0, 0, 0, 0.7);
     height: 62px;
+    margin-top: 0px;
+    margin-left: 3px;
 }
 
-.a
+.link
 {
     text-decoration: none;
     font-family: 'Montserrat';
@@ -88,6 +109,8 @@
 {
     display: flex;
     flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .footer-line
@@ -95,10 +118,10 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    width: 1920px;
     height: 398px;
     justify-content: center;
     align-items: center;
+    padding: 0 0 0 0;
 }
 
 .inside-line
@@ -121,19 +144,18 @@
 
 .finanses
 {
-    width: 510px;
-    height: 476px;
-    left: 0%;
-    right: 55.11%;
-    top: 0%;
-    bottom: 8.46%;
+    width: auto;
+    height: auto;
+    margin-right: 0;
 }
 
-.verse
+.normal
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 70px;
+    margin-left: 85px;
 }
 
 .reverse
@@ -143,26 +165,18 @@
     justify-content: center;
 }
 
-.illustration-description
-{
-    align-self: center;
-}
-
-.mind-blowing
-{
-    Width: 376.88px;
-    Height: 621.79px;
-    left: 4.89%;
-    right: 20.34%;
-    top: 4.93%;
-    bottom: 5.08%;
-}
-
 .small-image
 {
     margin: 0px 218.5px;
     width: 60px;
     height: 60px;
+}
+
+.illustration-description
+{
+    align-self: center;
+    margin-left: -40px;
+    margin-top: 62.5px;
 }
 
 .illustration-title
@@ -171,9 +185,8 @@
     font-weight: 500px;
     font-size: 48px;
     line-height: 122.06%;
-    width: 376px;
-    height: 61px;
-    margin: 0 90px;
+    margin-bottom: 28px;
+    margin-left: 90px;
 }
 
 .illustration-text
@@ -184,13 +197,52 @@
     line-height: 135%;
     width: 574px;
     height: 48px;
-    margin: 0 90px
+    margin: 0 90px;
+}
+
+
+.illustration-description-second
+{
+    align-self: center;
+    margin-left: -70px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.illustration-title-second
+{
+    font-family: 'Montserrat';
+    font-weight: 500px;
+    font-size: 48px;
+    line-height: 122.06%;
+    margin-bottom: 28px;
+    margin-left: 90px;
+}
+
+.illustration-text-second
+{
+    font-family: 'Roboto Condensed';
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 135%;
+    width: 574px;
+    height: 48px;
+    margin: 0 90px;
+}
+
+.mind-blowing
+{
+    Width: auto;
+    Height: auto;
+    margin-top: 45px;
+    margin-left: -52px;
 }
 
 .presentation
 {
     width: 553px;
     height: 59px;
+    /*font: 500 48px 59px 'Montserrat';*/
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -202,8 +254,8 @@
 .fingers
 {
     height: 48px;
-    margin-left: 39.35px;
-    margin-bottom: 32.36px;
+    margin-left: 40px;
+    margin-top: 0px;
 }
 
 .square
@@ -212,7 +264,7 @@
     border-radius: 7.35723px;
     width: 358px;
     height: 190px;
-    margin: 20px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -225,17 +277,19 @@
     font-size: 18px;
     line-height: 21px;
     color: white;
-    margin: 0 48.98px 0 39.25px;
+    margin-left: 40px;
+    margin-right: 30px;
 }
 
 .ending-line
 {
     background-color: black;
-    width: 1920px;
     height: 108px;
     display: flex;
     align-content: center;
     justify-content: center;
+    margin-top: 270px;
+    padding: 0px;
 }
 
 .ending-logo
@@ -259,4 +313,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.boxes
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 15px;
 }
