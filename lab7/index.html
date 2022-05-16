@@ -1,129 +1,133 @@
-<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
-    <title>LabWork 7</title>
+    <title>LabWork 5</title>
 </head>
-<body class="no-margin">
-	<header class="header">
-		<div>
-		    <img class="logo" src="images/Don`t do it.svg" alt="" />
-		</div>
-		<div class="header__links">
-			<p>
-				<a class="link">Что будет на курсе?</a>
-			</p>
-			<p>
-				<a class="link">Вопросы</a>
-			</p>
-			<p>
-				<a class="link">Автор</a>
-			</p>
-			<button class="button">Записаться на курс</button>
-		</div>
-	</header>
-	<main>
-		<div class="top">
-			<div class="top__text">
-				<div class="top__title">Не <span class="color-pink">делай</span> это</div>
-				<div class="top__description">Онлайн-курс для творческих людей, о том, как управлять своим временем </div>
-				<button class="button button_long">Записаться на курс</button>
-			</div>
-			<div class="top__image">
-				<img class="chill-man" src="images/ChillMan.svg" alt="">
-			</div>
-		</div>
-		<div class="line">
-			<div class="line__inside">
-				<div class="line__block">
-					<img src="images/Time.svg" alt="">
-					<span class="line__text">Для тех, у кого слишком много идей и слишком мало времени</span>
-				</div>
-				<div class="line__block">
-					<img src="images/notebook.svg" alt="">
-					<span class="line__text">Метод «списка не дел», который позволит успевать и реализовывать</span>
-				</div>
-				<div class="line__block">
-					<img src="images/target.svg" alt="">
-					<span class="line__text">Курс научит творческих людей сосредоточиваться</span>
-				</div>
-			</div>
-		</div>
-		<div class="middle">
-			<div class="middle__normal">
-				<img class="normal__img" src="images/Finances.svg" alt="">
-				<div class="normal__text">
-					<h1 class="middle__title">Ты не успеешь</h1>
-					<p class="middle__description">
-						Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей. 
-						Как прибавить суткам часы, рассмотрим в нашем курсе.
-					</p>
-				</div>
-			</div>
-			<div class="middle__reverse">
-				<div class="reverse__text">
-					<h1 class="middle__title">Опять дедлайн</h1>
-					<p class="middle__description">
-						В мире, где столько всего интересного, когда же успевать жить?
-					</p>
-				</div>
-				<img class="reverse__img" src="images/Mind Blowing.svg" alt="">
-			</div>
-		</div>
-		<div class="bottom">
-			<h2 class="bottom__title">На курсе ты <span class="color-pink">сможешь</span></h2>
-			<div class="all-squares">
-				<div class="square">
-					<div>
-						<img src="images/Frame 77.svg" alt="">
-					</div>
-					<span class="square__text">Понять, что нужно делать, а что делать не стоит.</span>
-				</div>
-				<div class="square">
-					<div>
-						<img src="images/twofinger.svg" alt="">
-					</div>
-					<span class="square__text">Перестать себя искусственно ограничивать.</span>
-				</div>
-				<div class="square">
-						<div>
-					<img src="images/threefinger.svg" alt="">
-					</div>	
-					<span class="square__text">Определить сильные стороны и начать использовать слабые. </span>
-				</div>
-				<div class="square">
-					<div>
-						<img src="images/fourfinger.svg" alt="">
-					</div>
-					 <span class="square__text">Научиться достигать любой цели в 3 понятных шага. </span>
-				</div>
-				<div class="square">
-					<div>
-						<img src="images/fivefinger.svg" alt="">
-					</div>
-					 <span class="square__text">Сотрудничать эффективно и с правильными людьми. </span>
-				</div>
-				<div class="square">
-					<div>
-						<img src="images/sixfinger.svg" alt="">
-					</div>
-					 <span class="square__text">Оптимизировать общение с клиентами и проведение совещаний. </span>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer class="footer-line">
-		<div>
-			<img class="logo" src="images/Don`t do it white.svg" alt="" />
-		</div>
-	</footer>
-</body>
+<body>
 
+    <header class="header">
+        <h1 class="title">Don't <span class="marked-text">do</span> it</h1>
+        <section class="header__ref-container">
+            <a href="" class="header__nav-ref title">Что будет на курсе?</a>
+            <a href="" class="header__nav-ref title">Вопросы</a>
+            <a href="" class="header__nav-ref title">Автор</a>
+            <a href="#enroll" class="header__nav-ref course-button title">Записаться на курс</a>
+        </section>
+    </header>
+
+    <main>
+        <div class="top">
+            <section class="top__section">
+                <h2 class="top__header title">
+                    Не <span class="title marked-text">делай</span> это
+                </h2>
+                <p class="top__text text">
+                    Онайлн-курс для творческих людей, о том, как управлять своим временем
+                </p>
+                <a href="#enroll" class="course-button title">
+                    Записаться на курс
+                </a>
+            </section>
+            <img class="top__img" src="images/ChillMan.svg" alt="" />
+        </div>
+        
+        <div class="marked-line">
+
+            <div class="marked-line__item">
+                <img class="marked-line__item-img" src="images/Clock.svg" alt="">
+                <p class="marked-line__item-text text">
+                    Для тех, у кого слишком много идей и слишком мало времени
+                </p>
+            </div>
+            <div class="marked-line__item">
+                <img class="marked-line__item-img" src="images/Notebook.svg" alt="">
+                <p class="marked-line__item-text text">
+                    Метод "списка не дел", который позволит успевать и реализовывать
+                </p>
+            </div>
+            <div class="marked-line__item">
+                <img class="marked-line__item-img" src="images/Target.svg" alt="">
+                <p class="marked-line__item-text text">
+                    Курс научит творческих людей сосредоточит
+                </p>
+            </div>
+
+        </div>
+
+        <div class="block">
+            <img src="images/Finances.svg" alt="" class="block__img" />
+            <section>
+                <h2 class="block__header title">Ты не успеешь</h2>
+                <p class="block__text text">
+                    Всех творческих людей объединяет одна проблема - отсутствие времени на 
+                    реализацию идей.  суткам часы, рассмотрим в нашем курсе.
+                </p>
+            </section>
+        </div>
+
+        <div class="block">
+            <section>
+                <h2 class="block__header title">Опять дедлайн</h2>
+                <p class="block__text text">
+                    В мире, где столько всего интересного, когда же успевать жить?
+                </p>
+            </section>
+            <img src="images/MindBlowing.svg" alt="" class="block__img" />
+        </div>
+
+        <div class="abilities">
+            <h1 class="abilities__header title">
+                На курсе ты <span class="marked-text title">сможешь</span>
+            </h1>
+            <div class="abilities__container">
+                
+                <div class="abilities__item">
+                    <img class="abilites__item-img" src="images/Finger1.svg" alt="">
+                    <p class="abilities__item-text text">
+                        Понять, что нужно делать, а что делать не стоит.
+                    </p>
+                </div>
+                <div class="abilities__item">
+                    <img class="abilites__item-img" src="images/Finger2.svg" alt="">
+                    <p class="abilities__item-text text">
+                        Перестать себя искусственно ограничивать.
+                    </p>
+                </div>
+                <div class="abilities__item">
+                    <img class="abilites__item-img" src="images/Finger3.svg" alt="">
+                    <p class="abilities__item-text text">
+                        Определить сильные стороны и начать использовать слабые.
+                    </p>
+                </div>
+                <div class="abilities__item">
+                    <img class="abilites__item-img" src="images/Finger1.svg" alt="">
+                    <p class="abilities__item-text text">
+                        Понять, что нужно делать, а что делать не стоит.
+                    </p>
+                </div>
+                <div class="abilities__item">
+                    <img class="abilites__item-img" src="images/Finger2.svg" alt="">
+                    <p class="abilities__item-text text">
+                        Перестать себя искусственно ограничивать.
+                    </p>
+                </div>
+                <div class="abilities__item">
+                    <img class="abilites__item-img" src="images/Finger3.svg" alt="">
+                    <p class="abilities__item-text text">
+                        Определить сильные стороны и начать использовать слабые.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <p class="footer__logo title">Don't <span class="marked-text title">do</span> it</px>
+    </footer>
+
+</body>
+</html>
