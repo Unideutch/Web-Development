@@ -41,7 +41,7 @@
     margin-top: -2px;
 }
 
-.button:hover
+.button:focus
 {
     background-color: #EE58B6;
 }
@@ -323,7 +323,6 @@
     font: 26px/1.2 'Montserrat';
     margin-left: 80px;
 }
-
 .form
 {
     display: flex;
@@ -331,7 +330,6 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .form__option
 {
     box-sizing: border-box;
@@ -406,6 +404,13 @@
     left: 55%;  
 }
 
+.form__option:focus
+{
+    border-color: #EE58B6;
+    border-width: 3px;
+    outline: none;
+}
+
 /*Тут они вроде закончились*/
 
 /*Тут приколы для попапа*/
@@ -449,40 +454,6 @@
     transition: all 0.5s;
 }
 
-.questionnaire__welcome.inactive
-{
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-.form.inactive
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.error__message
-{
-    font: 16px/1.4 "Roboto Condensed";
-    color: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    transition: all 0.5s;
-    left: 50%; 
-    top: 50%; 
-    transform: translate(-50%, -50%);
-    position: absolute; 
-}
-
-.error__message.active
-{
-    transition: all 0.5s;
-    pointer-events: all; 
-    opacity: 1; 
-}
-
 /*Тут они закончились*/
 
 .form__again
@@ -506,11 +477,4 @@
 .welcome__image
 {
     padding: 0px 60px;
-}
-
-.input__error
-{
-    border-color: red;
-    border-width: 3px;
-    outline: none;
 }

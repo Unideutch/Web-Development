@@ -13,7 +13,9 @@
             <a href="" class="header__nav-ref title">Что будет на курсе?</a>
             <a href="" class="header__nav-ref title">Вопросы</a>
             <a href="" class="header__nav-ref title">Автор</a>
-            <a href="#enroll" class="header__nav-ref course-button title">Записаться на курс</a>
+            <button href="#enroll" class="header__nav-ref course-button title popup__open">
+                Записаться на курс
+            </button>
         </section>
     </header>
 
@@ -26,9 +28,9 @@
                 <p class="top__text text">
                     Онайлн-курс для творческих людей, о том, как управлять своим временем
                 </p>
-                <a href="#enroll" class="course-button title">
+                <button href="#enroll" class="course-button title popup__open">
                     Записаться на курс
-                </a>
+                </button>
             </section>
             <img class="top__img" src="images/ChillMan.svg" alt="" />
         </div>
@@ -124,7 +126,10 @@
         </div>
         
     </main>
-
+    <?php
+            include 'form.php';
+    ?>
+    <script src="js/popup.js"></script>
     <footer class="footer">
         <p class="footer__logo title">Don't <span class="marked-text title">do</span> it</px>
     </footer>

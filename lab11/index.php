@@ -136,7 +136,6 @@
             include 'form.php';
         ?>
         <script src="js/popup.js"></script>
-        <script src="js/Answer.js"></script>
     </main>
 
     <footer class="footer">
