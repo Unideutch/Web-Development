@@ -454,6 +454,9 @@
     margin-left: 50px;
     display: flex;
     flex-direction: column;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translate(-50%, -50%);
 }
 
 .form.inactive
@@ -462,6 +465,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    opacity: 0; 
+    pointer-events: none;
+    transform: translate(-50%, -50%);
 }
 
 .error__message
@@ -513,4 +519,30 @@
     border-color: red;
     border-width: 3px;
     outline: none;
+}
+
+.container
+{
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    border-radius: 4.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.containerToContainers
+{
+    display:flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.container_string
+{
+    font: 24px/1.1 'Roboto Condensed';
+    color:#FFFFFF;
 }

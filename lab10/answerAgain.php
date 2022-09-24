@@ -14,8 +14,11 @@
     <title>Questionnaire</title>
 </head>
 <body>
-    <form method="post" class="form__again" action="formAgain.php">
-        <input type="email" placeholder="Email" class="form__option again__email" required name="email">
+    <form method="post" class="form__again" name="ask">
         <button type="submit" class="button form__button again__bottom">Получить данные</button>
     </form>
+    <script defer src="/js/AnswerAgain.js"></script>
+    <div class="containerToContainer" id = "anchor">
+
+    </div>
 </body>

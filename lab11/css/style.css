@@ -41,7 +41,7 @@
     margin-top: -2px;
 }
 
-.button:focus
+.button:hover
 {
     background-color: #EE58B6;
 }
@@ -74,6 +74,8 @@
 .top__title
 {
     font: 100px/1.22 'Montserrat';
+    letter-spacing: -3px;
+    font-weight: 700;
     margin-bottom: 0px;
     margin-top: 140px;
     padding: 0;
@@ -323,6 +325,7 @@
     font: 26px/1.2 'Montserrat';
     margin-left: 80px;
 }
+
 .form
 {
     display: flex;
@@ -330,6 +333,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .form__option
 {
     box-sizing: border-box;
@@ -435,7 +439,7 @@
     width: 600px; 
     left: 50%; 
     top: 50%; 
-    transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%) scale(0.5); 
     border-radius: 5px;
     padding-bottom: 30px;
     height: min-content;
@@ -466,6 +470,7 @@
 {
     margin-top: 52px;
     margin-left: 59px;
+    width: 40%;
 }
 
 .again__bottom
